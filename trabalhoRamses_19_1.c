@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*Os resultados gerados por esse programa não são exatos
+visto a impossibilidade de verificar carry em somas na
+linguagem C*/
 
 //variáveis globais -> não fazer isso nunca mais
 unsigned char registradorA = 0, registradorB = 0,resultadoMSB = 0, resultadoLSB = 0, carry = 0, i = 0;

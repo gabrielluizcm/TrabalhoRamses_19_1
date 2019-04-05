@@ -1,0 +1,16 @@
+Símbolo         Valor Decimal   Valor Hexadecimal
+-------         -------------   -----------------
+INICIO                     10                   A
+NAOCARRY                   22                  16
+SEGUNDONAO0                28                  1C
+SECARRY                    38                  26
+PRIMEIRO0                  46                  2E
+INVERTE                    54                  36
+LOOP                       57                  39
+SEMCARRYROTINA             60                  3C
+CONTINUA                   68                  44
+CARRYROTINA                72                  48
+INVERTEFINAL               76                  4C
+INICIOM1                   93                  5D
+RESULTMSB                 198                  C6
+RESULTLSB                 199                  C7

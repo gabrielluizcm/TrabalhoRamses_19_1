@@ -1,0 +1,220 @@
+Correcao do trabalho pratico RAMSES - 2019/1
+Processamento de vetor, rotações e somas com 16 bits
+Teste numero 1
+Caso de teste 1 da lista de casos de teste do enunciado
+End.197 recebe 208
+End.208 recebe 1
+End.209 recebe 2
+End.210 recebe 5
+End.211 recebe 26
+End.212 recebe 43
+End.213 recebe 60
+End.214 recebe 77
+End.215 recebe 94
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 110
+End.199 deve receber 166
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 2
+Caso de teste 2 da lista de casos de teste do enunciado
+End.197 recebe 200
+End.200 recebe 1
+End.201 recebe 2
+End.202 recebe 3
+End.203 recebe 4
+End.204 recebe 5
+End.205 recebe 6
+End.206 recebe 7
+End.207 recebe 8
+End.208 recebe 9
+End.209 recebe 10
+End.210 recebe 11
+End.211 recebe 12
+End.212 recebe 13
+End.213 recebe 14
+End.214 recebe 15
+End.215 recebe 16
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 0
+End.199 deve receber 88
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 3
+Caso de teste 3 da lista de casos de teste do enunciado
+End.197 recebe 216
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 0
+End.199 deve receber 0
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 4
+Caso de teste 4 da lista de casos de teste do enunciado
+End.197 recebe 200
+End.200 recebe 255
+End.201 recebe 255
+End.202 recebe 0
+End.203 recebe 0
+End.198 deve receber 255
+End.199 deve receber 255
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 5
+Caso de teste 5 da lista de casos de teste do enunciado
+End.197 recebe 210
+End.210 recebe 15
+End.211 recebe 240
+End.212 recebe 0
+End.213 recebe 0
+End.198 deve receber 15
+End.199 deve receber 240
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 6
+Caso de teste 6 da lista de casos de teste do enunciado
+End.197 recebe 205
+End.205 recebe 0
+End.206 recebe 255
+End.207 recebe 0
+End.208 recebe 255
+End.209 recebe 0
+End.210 recebe 255
+End.211 recebe 0
+End.212 recebe 255
+End.213 recebe 0
+End.214 recebe 255
+End.215 recebe 0
+End.216 recebe 255
+End.217 recebe 0
+End.218 recebe 0
+End.198 deve receber 0
+End.199 deve receber 175
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 7
+Caso de teste 7 da lista de casos de teste do enunciado
+End.197 recebe 200
+End.200 recebe 0
+End.201 recebe 1
+End.202 recebe 0
+End.203 recebe 2
+End.204 recebe 0
+End.205 recebe 3
+End.206 recebe 0
+End.207 recebe 4
+End.208 recebe 0
+End.209 recebe 5
+End.210 recebe 0
+End.211 recebe 6
+End.212 recebe 0
+End.213 recebe 7
+End.214 recebe 0
+End.215 recebe 8
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 0
+End.199 deve receber 4
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 8
+Caso de teste 8 da lista de casos de teste do enunciado
+End.197 recebe 200
+End.200 recebe 1
+End.201 recebe 0
+End.202 recebe 2
+End.203 recebe 0
+End.204 recebe 3
+End.205 recebe 0
+End.206 recebe 4
+End.207 recebe 0
+End.208 recebe 5
+End.209 recebe 0
+End.210 recebe 6
+End.211 recebe 0
+End.212 recebe 7
+End.213 recebe 0
+End.214 recebe 8
+End.215 recebe 0
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 4
+End.199 deve receber 32
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 9
+Caso de teste 9 da lista de casos de teste do enunciado
+End.197 recebe 200
+End.200 recebe 0
+End.201 recebe 16
+End.202 recebe 0
+End.203 recebe 32
+End.204 recebe 0
+End.205 recebe 48
+End.206 recebe 0
+End.207 recebe 64
+End.208 recebe 0
+End.209 recebe 80
+End.210 recebe 0
+End.211 recebe 96
+End.212 recebe 0
+End.213 recebe 112
+End.214 recebe 0
+End.215 recebe 128
+End.216 recebe 0
+End.217 recebe 0
+End.198 deve receber 0
+End.199 deve receber 66
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Teste numero 10
+Caso de teste 10 da lista de casos de teste do enunciado
+End.197 recebe 205
+End.205 recebe 16
+End.206 recebe 32
+End.207 recebe 48
+End.208 recebe 64
+End.209 recebe 80
+End.210 recebe 96
+End.211 recebe 0
+End.212 recebe 0
+End.198 deve receber 144
+End.199 deve receber 192
+Valor inicial do PC e' 0
+Numero maximo de instrucoes e' 1000000
+
+Arquivo trabalhoRamses.mem:
+ Teste 1: HLT -- Resultado correto
+  Executadas 401 instrucoes, com 754 leituras e 24 escritas (778 acessos)
+ Teste 2: HLT -- Resultado correto
+  Executadas 719 instrucoes, com 1349 leituras e 43 escritas (1392 acessos)
+ Teste 3: HLT -- Resultado correto
+  Executadas 75 instrucoes, com 139 leituras e 7 escritas (146 acessos)
+ Teste 4: HLT -- Resultado correto
+  Executadas 177 instrucoes, com 344 leituras e 11 escritas (355 acessos)
+ Teste 5: HLT -- Resultado correto
+  Executadas 161 instrucoes, com 304 leituras e 11 escritas (315 acessos)
+ Teste 6: HLT -- Resultado correto
+  Executadas 361 instrucoes, com 701 leituras e 19 escritas (720 acessos)
+ Teste 7: HLT -- Resultado correto
+  Executadas 413 instrucoes, com 780 leituras e 23 escritas (803 acessos)
+ Teste 8: HLT -- Resultado correto
+  Executadas 423 instrucoes, com 797 leituras e 25 escritas (822 acessos)
+ Teste 9: HLT -- Resultado correto
+  Executadas 389 instrucoes, com 720 leituras e 23 escritas (743 acessos)
+ Teste 10: HLT -- Resultado correto
+  Executadas 293 instrucoes, com 534 leituras e 19 escritas (553 acessos)
+ Executadas um total de 3412 instrucoes, com 6422 leituras e 205 escritas (6627 acessos)
+ Todos os testes corretos
+

@@ -1,0 +1,75 @@
+ORG 0
+LDR A, #0
+LDR B, #0
+LDR X, 197
+STR A, resultMSB
+STR A, resultLSB
+
+inicio:
+LDR A, 0, X
+JZ primeiro0
+JSR inverte
+ADD A, resultLSB
+STR A, resultLSB
+JC seCarry
+naoCarry:
+ADD X, #1
+LDR A, 0, X
+JZ inicioM1
+segundoNao0:
+JSR inverte
+ADD A, resultMSB
+STR A, resultMSB
+ADD X, #1
+JMP inicio
+
+
+seCarry:
+LDR A, resultMSB
+ADD A, #1
+STR A, resultMSB
+JMP naoCarry
+
+primeiro0:
+ADD X, #1
+LDR A, 0, X
+JZ inverteFinal
+JMP segundoNao0
+
+inverte:
+NOP
+LDR B, #0
+loop:
+SHR A
+JC carryRotina
+semCarryRotina:
+ADD B, #1
+SUB B, #4
+JN continua
+JMP inverte, I
+continua:
+ADD B, #4
+JMP loop
+
+carryRotina:
+ADD A, #128
+JMP semCarryRotina
+
+inverteFinal:
+LDR A, resultMSB
+JSR inverte
+STR A, resultMSB
+LDR B, resultMSB
+LDR A, resultLSB
+STR B, resultLSB
+JSR inverte
+STR A resultMSB
+HLT
+
+inicioM1:
+ADD X, #1
+JMP inicio
+
+ORG 198
+resultMSB: DB 0
+resultLSB: DB 0
