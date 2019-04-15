@@ -1,9 +1,8 @@
 #include <stdio.h>
-/*Os resultados gerados por esse programa não são exatos
-visto a impossibilidade de verificar carry em somas na
-linguagem C*/
 
 //variáveis globais -> não fazer isso nunca mais
+//resultado16b vai armazenar o resultado durante o programa para não perder informação do carry
+//na etapa final, resultado16b vai ser dividido em duas variáveis de 8 bits
 unsigned char registradorA = 0, registradorB = 0,resultadoMSB = 0, resultadoLSB = 0, carry = 0, i = 0;
 unsigned short resultado16b = 0;
 unsigned char vetor[55];
@@ -26,7 +25,6 @@ void inverteLSB()
   registradorA = vetor[i];
   rotateRightx4();
   resultado16b += (registradorA * 256);
-  printf("\nLSB parcial: %d", resultadoMSB);
   i++;
 }
 
@@ -43,8 +41,8 @@ void inverteMSB()
 void inverteResultado()
 {
   registradorB = 0;
-  resultadoMSB = (resultado16b && 0xFF00);
-  resultadoLSB = (resultado16b && 0x00FF);
+  resultadoMSB = ((resultado16b & 0xFF00) / 256);
+  resultadoLSB = (resultado16b & 0x00FF);
   registradorA = resultadoMSB;
   rotateRightx4();
   registradorB = registradorA;
@@ -57,24 +55,17 @@ void inverteResultado()
 
 int main(void) {
 
-  vetor[0] = 16;
-  vetor[1] = 32;
-  vetor[2] = 48;
-  vetor[3] = 64;
-  vetor[4] = 80;
-  vetor[5] = 96;
-  vetor[6] = 0;
-  vetor[7] = 0;
-  /*vetor[8] = 5;
+  //valores do vetor precisam ser inseridos manualmente, como no Ramses
+  vetor[0] = 1;
+  vetor[1] = 2;
+  vetor[2] = 5;
+  vetor[3] = 26;
+  vetor[4] = 43;
+  vetor[5] = 60;
+  vetor[6] = 77;
+  vetor[7] = 94;
+  vetor[8] = 0;
   vetor[9] = 0;
-  vetor[10] = 6;
-  vetor[11] = 0;
-  vetor[12] = 7;
-  vetor[13] = 0;
-  vetor[14] = 8;
-  vetor[15] = 0;
-  vetor[16] = 0;
-  vetor[17] = 0;*/
 
   while ((vetor[i] || vetor[i+1]) != 0)
   {
